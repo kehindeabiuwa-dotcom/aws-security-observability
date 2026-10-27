@@ -1,0 +1,38 @@
+[
+  {
+    "file": "screenshots/study-notes/secrets-manager-details.png",
+    "source_pdf": "STORAGE, Web Hosting & SECURITY/Build a Security Monitoring System.pdf",
+    "source_page": 3,
+    "source_url": "https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Build%20a%20Security%20Monitoring%20System.pdf#page=3",
+    "article": "01-secret-audit",
+    "caption": "Original study exercise: the Secrets Manager details page shows the test secret and its encryption key, with the secret value still hidden. The new template generates a separate dummy secret.",
+    "sha256": "01c79c76a96cae91238d22e3d7a4be0bd694a255fd4a63b44eb258996f409ae2"
+  },
+  {
+    "file": "screenshots/study-notes/metric-filter-value.png",
+    "source_pdf": "STORAGE, Web Hosting & SECURITY/Build a Security Monitoring System.pdf",
+    "source_page": 7,
+    "source_url": "https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Build%20a%20Security%20Monitoring%20System.pdf#page=7",
+    "article": "02-cloudwatch-alerts",
+    "caption": "Original study exercise: the metric-filter form publishes 1 for a match and uses a default of 0. The new template implements separate counters for successful and denied reads.",
+    "sha256": "7751b2e15133e10eeea3805d0d335c6fa494c35546809c8005bcc0f1db4b150b"
+  },
+  {
+    "file": "screenshots/study-notes/secret-access-alarm.png",
+    "source_pdf": "STORAGE, Web Hosting & SECURITY/Build a Security Monitoring System.pdf",
+    "source_page": 1,
+    "source_url": "https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Build%20a%20Security%20Monitoring%20System.pdf#page=1",
+    "article": "02-cloudwatch-alerts",
+    "caption": "Original study exercise: the secret-access alarm is in ALARM. The capture shows the alarm triggered during my console exercise.",
+    "sha256": "810e3655cef926b68ecd8d4385418629873ce57b1d128474ad45b3eeb4898e93"
+  },
+  {
+    "file": "screenshots/study-notes/guardduty-finding-details.png",
+    "source_pdf": "STORAGE, Web Hosting & SECURITY/Threat Detection with GuardDuty.pdf",
+    "source_page": 13,
+    "source_url": "https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Threat%20Detection%20with%20GuardDuty.pdf#page=13",
+    "article": "03-guardduty-events",
+    "caption": "Original threat-detection exercise: a high-severity instance-credential-exfiltration finding. This came from the earlier controlled exercise, not the new sample-finding test, and does not demonstrate EventBridge/SNS delivery for this repository.",
+    "sha256": "14dd4931950e5e1be40b3051037def22ec359f684ba939de11d4b20ea18d4269"
+  }
+]

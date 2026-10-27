@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Observe. Correlate. Notify." id="architecture">
+    <mxGraphModel dx="1600" dy="1000" page="1" pageWidth="1600" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Observe. Correlate. Notify.&#10;Two independent alert paths • regional sandbox • no automatic containment" style="text;html=0;align=left;fontSize=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="secret" target="trail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="trail" target="cw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="cw" target="sns">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="Audit archive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="trail" target="archive">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="Finding event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="gd" target="eb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="Notify" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="eb" target="sns">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="secret" value="Test secret access&#10;Successful + denied reads&#10;Dummy secret only" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#df872b;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="65" y="245" width="320" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="trail" value="CloudTrail&#10;Read + write management&#10;Regional collection" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#2477c8;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="445" y="245" width="320" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cw" value="CloudWatch&#10;Logs → filters → alarms&#10;Sum ≥ 1 / 60 seconds" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7855b5;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="825" y="245" width="320" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="sns" value="SNS notification&#10;Confirm email subscription&#10;Alarm state transitions" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#c95166;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="245" width="330" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="archive" value="S3 audit archive&#10;Retained on stack deletion&#10;30-day object expiry" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#249676;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="445" y="530" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="gd" value="GuardDuty&#10;Existing or optional new detector&#10;Sample finding for routing test" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#df872b;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="65" y="760" width="420" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="eb" value="EventBridge&#10;Match GuardDuty Finding&#10;Severity ≥ 4" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7855b5;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="760" width="420" height="135" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

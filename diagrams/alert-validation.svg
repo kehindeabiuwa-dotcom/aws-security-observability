@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><rect width="1600" height="1000" fill="#f3f6fb"/>
+<rect x="0" y="0" width="1600" height="155" rx="0" fill="#10233f" stroke="#10233f" stroke-width="2"/>
+<text x="55" y="64.8" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prove the alert path, step by step.</text>
+<text x="55" y="113.14" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#c6d4e8">A 60-second alarm period is not a promise of 60-second end-to-end delivery</text>
+<polyline points="380,357.5 412.5,357.5 412.5,357.5 445,357.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="445,357.5 434.1946347717679,362.71958640933474 434.1946347717679,352.28041359066526" fill="#55708f"/>
+<polyline points="770,357.5 802.5,357.5 802.5,357.5 835,357.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="835,357.5 824.1946347717678,362.71958640933474 824.1946347717678,352.28041359066526" fill="#55708f"/>
+<polyline points="1160,357.5 1192.5,357.5 1192.5,357.5 1225,357.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="1225,357.5 1214.1946347717678,362.71958640933474 1214.1946347717678,352.28041359066526" fill="#55708f"/>
+<polyline points="997.5,435 997.5,550.0 800.0,550.0 800.0,665" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="800.0,665 794.7804135906653,654.1946347717678 805.2195864093347,654.1946347717678" fill="#55708f"/>
+<rect x="55" y="280" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="55" y="280" width="8" height="155" rx="3" fill="#df872b" stroke="#df872b" stroke-width="2"/>
+<text x="78" y="322.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">1 / Generate event</text>
+<text x="78" y="359.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Read dummy secret</text>
+<text x="78" y="386.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Do not print its value</text>
+<rect x="445" y="280" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="445" y="280" width="8" height="155" rx="3" fill="#2477c8" stroke="#2477c8" stroke-width="2"/>
+<text x="468" y="322.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">2 / Find audit event</text>
+<text x="468" y="359.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">GetSecretValue</text>
+<text x="468" y="386.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Check errorCode + identity</text>
+<rect x="835" y="280" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="835" y="280" width="8" height="155" rx="3" fill="#7855b5" stroke="#7855b5" stroke-width="2"/>
+<text x="858" y="322.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">3 / Check metric</text>
+<text x="858" y="359.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Successful or denied count</text>
+<text x="858" y="386.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Sum, not Average</text>
+<rect x="1225" y="280" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="1225" y="280" width="8" height="155" rx="3" fill="#c95166" stroke="#c95166" stroke-width="2"/>
+<text x="1248" y="322.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">4 / Check notification</text>
+<text x="1248" y="359.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">OK → ALARM transition</text>
+<text x="1248" y="386.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Confirmed SNS subscriber</text>
+<rect x="420" y="665" width="760" height="165" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="420" y="665" width="8" height="165" rx="3" fill="#249676" stroke="#249676" stroke-width="2"/>
+<text x="443" y="707.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Record the test result</text>
+<text x="443" y="744.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Capture timestamps, log event, alarm history and email.</text>
+<text x="443" y="771.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">A repeated read while ALARM may produce no new email.</text>
+<text x="443" y="798.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">A missing event and a delivery failure are different problems.</text>
+<text x="55" y="953.53" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#55708f">KEHINDE ABIUWA  /  CLOUD PORTFOLIO</text>
+<text x="870" y="952.66" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#55708f">AWS architecture • Kehinde Abiuwa</text>
+</svg>

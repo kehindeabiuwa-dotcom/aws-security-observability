@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Prove the alert path, step by step." id="alert-validation">
+    <mxGraphModel dx="1600" dy="1000" page="1" pageWidth="1600" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Prove the alert path, step by step.&#10;A 60-second alarm period is not a promise of 60-second end-to-end delivery" style="text;html=0;align=left;fontSize=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="1530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="read" target="log">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="log" target="metric">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="metric" target="alarm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="metric" target="evidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="read" value="1 / Generate event&#10;Read dummy secret&#10;Do not print its value" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#df872b;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="55" y="280" width="325" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="log" value="2 / Find audit event&#10;GetSecretValue&#10;Check errorCode + identity" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#2477c8;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="445" y="280" width="325" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="metric" value="3 / Check metric&#10;Successful or denied count&#10;Sum, not Average" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7855b5;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="835" y="280" width="325" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="alarm" value="4 / Check notification&#10;OK → ALARM transition&#10;Confirmed SNS subscriber" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#c95166;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="280" width="325" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" value="Record the test result&#10;Capture timestamps, log event, alarm history and email.&#10;A repeated read while ALARM may produce no new email.&#10;A missing event and a delivery failure are different problems." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#249676;strokeWidth=2;fontSize=22;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="420" y="665" width="760" height="165" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

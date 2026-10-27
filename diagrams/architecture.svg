@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><rect width="1600" height="1000" fill="#f3f6fb"/>
+<rect x="0" y="0" width="1600" height="155" rx="0" fill="#10233f" stroke="#10233f" stroke-width="2"/>
+<text x="55" y="64.8" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="#ffffff">Observe. Correlate. Notify.</text>
+<text x="55" y="113.14" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#c6d4e8">Two independent alert paths • regional sandbox • no automatic containment</text>
+<polyline points="385,322.5 415.0,322.5 415.0,322.5 445,322.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="445,322.5 434.1946347717679,327.71958640933474 434.1946347717679,317.28041359066526" fill="#55708f"/>
+<polyline points="765,322.5 795.0,322.5 795.0,322.5 825,322.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="825,322.5 814.1946347717678,327.71958640933474 814.1946347717678,317.28041359066526" fill="#55708f"/>
+<polyline points="1145,322.5 1175.0,322.5 1175.0,322.5 1205,322.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="1205,322.5 1194.1946347717678,327.71958640933474 1194.1946347717678,317.28041359066526" fill="#55708f"/>
+<polyline points="605.0,400 605.0,465.0 605.0,465.0 605.0,530" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="605.0,530 599.7804135906653,519.1946347717678 610.2195864093347,519.1946347717678" fill="#55708f"/>
+<rect x="547.0" y="438.0" width="116.0" height="29" rx="4" fill="#f3f6fb" stroke="#f3f6fb" stroke-width="2"/>
+<text x="553.0" y="456.66" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172942">Audit archive</text>
+<polyline points="485,827.5 567.5,827.5 567.5,827.5 650,827.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="650,827.5 639.1946347717678,832.7195864093347 639.1946347717678,822.2804135906653" fill="#55708f"/>
+<rect x="507.5" y="800.5" width="120.0" height="29" rx="4" fill="#f3f6fb" stroke="#f3f6fb" stroke-width="2"/>
+<text x="513.5" y="819.16" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172942">Finding event</text>
+<polyline points="860.0,760 860.0,580.0 1370.0,580.0 1370.0,400" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="1370.0,400 1375.2195864093349,410.8053652282321 1364.7804135906651,410.8053652282321" fill="#55708f"/>
+<rect x="1086.0" y="553.0" width="58.0" height="29" rx="4" fill="#f3f6fb" stroke="#f3f6fb" stroke-width="2"/>
+<text x="1092.0" y="571.66" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172942">Notify</text>
+<rect x="65" y="245" width="320" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="65" y="245" width="8" height="155" rx="3" fill="#df872b" stroke="#df872b" stroke-width="2"/>
+<text x="88" y="287.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Test secret access</text>
+<text x="88" y="324.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Successful + denied reads</text>
+<text x="88" y="351.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Dummy secret only</text>
+<rect x="445" y="245" width="320" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="445" y="245" width="8" height="155" rx="3" fill="#2477c8" stroke="#2477c8" stroke-width="2"/>
+<text x="468" y="287.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">CloudTrail</text>
+<text x="468" y="324.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Read + write management</text>
+<text x="468" y="351.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Regional collection</text>
+<rect x="825" y="245" width="320" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="825" y="245" width="8" height="155" rx="3" fill="#7855b5" stroke="#7855b5" stroke-width="2"/>
+<text x="848" y="287.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">CloudWatch</text>
+<text x="848" y="324.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Logs → filters → alarms</text>
+<text x="848" y="351.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Sum ≥ 1 / 60 seconds</text>
+<rect x="1205" y="245" width="330" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="1205" y="245" width="8" height="155" rx="3" fill="#c95166" stroke="#c95166" stroke-width="2"/>
+<text x="1228" y="287.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">SNS notification</text>
+<text x="1228" y="324.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Confirm email subscription</text>
+<text x="1228" y="351.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Alarm state transitions</text>
+<rect x="445" y="530" width="320" height="145" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="445" y="530" width="8" height="145" rx="3" fill="#249676" stroke="#249676" stroke-width="2"/>
+<text x="468" y="572.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">S3 audit archive</text>
+<text x="468" y="609.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Retained on stack deletion</text>
+<text x="468" y="636.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">30-day object expiry</text>
+<rect x="65" y="760" width="420" height="135" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="65" y="760" width="8" height="135" rx="3" fill="#df872b" stroke="#df872b" stroke-width="2"/>
+<text x="88" y="802.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">GuardDuty</text>
+<text x="88" y="839.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Existing or optional new detector</text>
+<text x="88" y="866.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Sample finding for routing test</text>
+<rect x="650" y="760" width="420" height="135" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="650" y="760" width="8" height="135" rx="3" fill="#7855b5" stroke="#7855b5" stroke-width="2"/>
+<text x="673" y="802.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">EventBridge</text>
+<text x="673" y="839.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Match GuardDuty Finding</text>
+<text x="673" y="866.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Severity ≥ 4</text>
+<text x="55" y="953.53" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#55708f">KEHINDE ABIUWA  /  CLOUD PORTFOLIO</text>
+<text x="870" y="952.66" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#55708f">AWS architecture • Kehinde Abiuwa</text>
+</svg>

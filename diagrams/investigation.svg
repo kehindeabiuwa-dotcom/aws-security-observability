@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><rect width="1600" height="1000" fill="#f3f6fb"/>
+<rect x="0" y="0" width="1600" height="155" rx="0" fill="#10233f" stroke="#10233f" stroke-width="2"/>
+<text x="55" y="64.8" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="#ffffff">A finding starts an investigation.</text>
+<text x="55" y="113.14" font-family="Arial,sans-serif" font-size="22" font-weight="400" fill="#c6d4e8">Keep sample findings visibly marked • preserve evidence before changing resources</text>
+<polyline points="380,362.5 412.5,362.5 412.5,362.5 445,362.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="445,362.5 434.1946347717679,367.71958640933474 434.1946347717679,357.28041359066526" fill="#55708f"/>
+<polyline points="770,362.5 802.5,362.5 802.5,362.5 835,362.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="835,362.5 824.1946347717678,367.71958640933474 824.1946347717678,357.28041359066526" fill="#55708f"/>
+<polyline points="1160,362.5 1192.5,362.5 1192.5,362.5 1225,362.5" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="1225,362.5 1214.1946347717678,367.71958640933474 1214.1946347717678,357.28041359066526" fill="#55708f"/>
+<polyline points="997.5,440 997.5,555.0 800.0,555.0 800.0,670" fill="none" stroke="#55708f" stroke-width="3"/>
+<polygon points="800.0,670 794.7804135906653,659.1946347717678 805.2195864093347,659.1946347717678" fill="#55708f"/>
+<rect x="55" y="285" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="55" y="285" width="8" height="155" rx="3" fill="#c95166" stroke="#c95166" stroke-width="2"/>
+<text x="78" y="327.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Receive notification</text>
+<text x="78" y="364.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Identify path and region</text>
+<text x="78" y="391.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Sample or real event?</text>
+<rect x="445" y="285" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="445" y="285" width="8" height="155" rx="3" fill="#2477c8" stroke="#2477c8" stroke-width="2"/>
+<text x="468" y="327.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Establish context</text>
+<text x="468" y="364.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Who / what / when</text>
+<text x="468" y="391.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Affected resource + source</text>
+<rect x="835" y="285" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="835" y="285" width="8" height="155" rx="3" fill="#7855b5" stroke="#7855b5" stroke-width="2"/>
+<text x="858" y="327.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Correlate evidence</text>
+<text x="858" y="364.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Authorized test or activity?</text>
+<text x="858" y="391.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">CloudTrail + finding detail</text>
+<rect x="1225" y="285" width="325" height="155" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="1225" y="285" width="8" height="155" rx="3" fill="#249676" stroke="#249676" stroke-width="2"/>
+<text x="1248" y="327.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Document decision</text>
+<text x="1248" y="364.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Expected / suspicious</text>
+<text x="1248" y="391.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Uncertainties + next steps</text>
+<rect x="360" y="670" width="880" height="150" rx="16" fill="#ffffff" stroke="#cad5e4" stroke-width="2"/>
+<rect x="360" y="670" width="8" height="150" rx="3" fill="#df872b" stroke="#df872b" stroke-width="2"/>
+<text x="383" y="712.75" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172942">Baseline scope: observe and notify</text>
+<text x="383" y="749.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Sample findings validate routing, not real attack detection.</text>
+<text x="383" y="776.4" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172942">Containment and credential revocation are outside this automated baseline.</text>
+<text x="55" y="953.53" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#55708f">KEHINDE ABIUWA  /  CLOUD PORTFOLIO</text>
+<text x="870" y="952.66" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#55708f">AWS architecture • Kehinde Abiuwa</text>
+</svg>
